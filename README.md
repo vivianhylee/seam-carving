@@ -23,7 +23,7 @@ The goal of this project is to perform content-aware image resizing for both red
 ### Seam Insertion
 Seam insertion can be thought of as inversion of seam removal and insert new artificial pixels/seams into the image. We first perform seam removal for n seams on a duplicated input image and record all the coordinates in the same order when removing. Then, we insert new seams to original input image in the same order at the recorded coordinates location. The inserted argificial pixel values are derived from an average of left and right neighbors.
 
-### Seam Removing and Insertion with mask
+### Seam Removing and Insertion with Mask
 When generating energy map, the region protected by mask are weighted with a very high positive value. This guarantees that the minimum seam will NOT be routed through the masked region so that we can provent pixels at this region from removing or distorting because of seam insertion.
 
 ### Object Removal
@@ -32,6 +32,10 @@ When generating energy map, the region protected by mask are weighted with a ver
 
 2. Seam insertion
 >Insering seams to return the image back to it's original dimensions. 
+
+## Example
+### Scaling down
+![animation resize to smaller](https://github.com/4gn3s/seam-carving/raw/master/static/smaller.gif)
 
 
 
