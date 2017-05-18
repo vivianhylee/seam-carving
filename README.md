@@ -35,7 +35,10 @@ When generating energy map, the region protected by mask are weighted with a ver
 
 ## Example
 ### Scaling down
-![animation resize to smaller](https://github.com/4gn3s/seam-carving/raw/master/static/smaller.gif)
+![animation image size reduction](seam-carving/example/image05_video.gif)
+
+### Scaling up
+![animation image size expansion](seam-carving/example/image7_video.gif)
 
 
 
