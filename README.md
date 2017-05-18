@@ -33,12 +33,14 @@ When generating energy map, the region protected by mask are weighted with a ver
 2. Seam insertion
 >Insering seams to return the image back to it's original dimensions. 
 
-## Example
+## Example 1
 ### Scaling down
 ![animation image size reduction](https://github.com/vivianhylee/seam-carving/raw/master/example/image05_video.gif)
 
-### Scaling up
-![animation image size expansion](seam-carving/example/image7_video.gif)
+### Scaling up 
+![animation image size expansion](https://github.com/vivianhylee/seam-carving/raw/master/example/image7_video.gif)
 
+### Object removal
+![animation object removal](https://github.com/vivianhylee/seam-carving/raw/master/example/image11_video.gif)
 
 
