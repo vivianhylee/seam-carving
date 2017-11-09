@@ -37,9 +37,6 @@ When generating energy map, the region protected by mask are weighted with a ver
 ### Original image
 ![original image](https://github.com/vivianhylee/seam-carving/raw/master/example/image6.jpg)
 
-### Scaling down
-![image size reduction](https://github.com/vivianhylee/seam-carving/raw/master/example/image20_result.png)
-
 ### Scaling up 
 ![image size expansion](https://github.com/vivianhylee/seam-carving/raw/master/example/image17_result.png)
 
